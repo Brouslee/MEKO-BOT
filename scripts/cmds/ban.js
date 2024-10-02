@@ -6,6 +6,7 @@ module.exports = {
 		name: "حظر",
 		version: "1.2",
 		author: "NTKhang",
+		aliases:["باند","بانكاي"],
 		countDown: 5,
 		role: 2,
 		shortDescription: {
