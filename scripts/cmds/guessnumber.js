@@ -20,7 +20,7 @@ const rows = [
 
 module.exports = {
 	config: {
-		name: "إحزر_الرقم",
+		name: "تخمين",
 		aliases: ["إحزر الرقم"],
 		version: "1.0",
 		author: "NTKhang",
