@@ -1,22 +1,4 @@
 {
-  "0": "U",
-  "1": "p",
-  "2": "d",
-  "3": "a",
-  "4": "t",
-  "5": "e",
-  "6": " ",
-  "7": "c",
-  "8": "o",
-  "9": "n",
-  "10": "f",
-  "11": "i",
-  "12": "g",
-  "13": ".",
-  "14": "j",
-  "15": "s",
-  "16": "o",
-  "17": "n",
   "facebookAccount": {
     "email": "",
     "password": "",
@@ -35,17 +17,14 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100087632392287",
-    "",
-    "",
-    ""
+    "100087632392287"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "MEKO*BOT ☺️",
+  "nickNameBot": "MIKI*BOT ☺️",
   "prefix": ".",
   "database": {
     "type": "sqlite",
@@ -60,7 +39,7 @@
       "email": "houssin.sb4@gmail.com",
       "clientId": "107139824236-kg9nm5nfa7jlusmvs2efr6a8i6sevo8f.apps.googleusercontent.com",
       "clientSecret": "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",
-      "refreshToken": "1//04WC_ZJyid4f9CgYIARAAGAQSNwF-L9Ir5NLNHsM4SYtwc6ihltq-Tepa_G5cmsnSCOJXQyeYQLgCyNnRGxBCguM146Le6CdkB44",
+      "refreshToken": "1//04YU4XI6LYddCCgYIARAAGAQSNwF-L9Ir-aA6TD2KD6bSZpQxa11P7Uu7p5ZBF1VBCHy4L1VBGCRYZW_egYG8ndYaBD35i7vUr0g",
       "apiKey": ""
     },
     "gRecaptcha": {
@@ -93,7 +72,7 @@
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
-    "enable": true,
+    "enable": false,
     "ignoreCmds": "",
     "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
@@ -111,8 +90,8 @@
   "notiWhenListenMqttError": {
     "notes": "This is the message when the bot is listening to the mqtt server and the mqtt server stops working due to account problems such as: locked acc, blocked due to spam,... bot will automatically send notifications to parts of your settings. You must change enable to true to use this feature. See bot/login/handlerWhenListenHasError.js file for details on how it works",
     "gmail": {
-      "enable": true,
-      "emailGetNoti": "houssin.sb4@gmail.com",
+      "enable": false,
+      "emailGetNoti": "",
       "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \"example1@gmail.com example2@gmail.com\" (without backslash)"
     },
     "telegram": {
@@ -156,15 +135,5 @@
     "autoMarkDelivery": false,
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  },
-  "leave": {
-    "status": true,
-    "number": 10
-  },
-  "whiteListModeThread": {
-    "enable": false,
-    "whiteListThreadIds": [],
-    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
 }
