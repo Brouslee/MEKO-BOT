@@ -1,8 +1,8 @@
 const cron = require("node-cron");
 const moment = require("moment");
-const prefix = "©"; // Your bot's prefix
-const botName = "ميدوريا";
-const ownerName = " 🧿 حسين يعقوبي";
+const prefix = "."; // Your bot's prefix
+const botName = "ميكو";
+const ownerName = "محمد العكاري - حمود";
 
 module.exports = {
   config: {
