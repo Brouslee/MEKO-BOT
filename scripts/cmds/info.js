@@ -24,11 +24,11 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const botName = "ميدوريا";
-    const botPrefix = "©";
-    const authorName = "حسين يعقوبي ";
-    const authorFB = "https://www.facebook.com/profile.php?id=100076269693499";
-    const authorInsta = "https://www.instagram.com/hussein_yacoubu/";
+    const botName = "MIKO*BOT ☺️";
+    const botPrefix = ".";
+    const authorName = "محمد العكاري - حمود";
+    const authorFB = "https://www.facebook.com/profile.php?id=100087632392287";
+    const authorInsta = "https://www.instagram.com/it0c_/";
     const status = "أعزب";
 
     const urls = JSON.parse(fs.readFileSync('Hussein.json'));
