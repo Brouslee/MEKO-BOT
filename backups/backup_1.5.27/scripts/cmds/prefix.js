@@ -16,7 +16,7 @@ module.exports = {
  return message.reply({
  body: `
 
-   [ ميـבوريا البوت ] 
+   [ ميكو البوت ] 
 ━━━━━━━━━━━━━━━━━━━
 
 مرحبًا! يبدو أنك لست على دراية بالبادئة الخاصة بي!، إليك دليل، الإستخدام  : ⬅️
@@ -33,7 +33,7 @@ module.exports = {
 ➖ 🏦 [- بنك ]
 ➖ 📝 [ -رصيدي ]
 
-📍المالك  : حسين يعقوبي`,
+📍المالك  : محمد العكاري`,
  attachment: await global.utils.getStreamFromURL("https://i.imgur.com/EVktxbQ.gif")
  });
  }
