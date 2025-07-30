@@ -2,18 +2,18 @@
 const axios = require("axios");
 module.exports = {
 	config: {
-		name: 'إيزوكو',
+		name: 'ميك',
 		version: '2.1.0',
 		author: 'KENLIEPLAYS',
 		countDown: 5,
 		role: 0,
-		shortDescription: 'يمكنك سؤال ميدوريا أي شيء و سيجيبم',
+		shortDescription: 'يمكنك سؤال ميكو أي شيء و سيجيبم',
 		longDescription: {
-			ar: 'إسأل ميدوريا عن ماتريد وسوف يجيبك عن كل سؤال تطرحه'
+			ar: 'إسأل ميكو عن ماتريد وسوف يجيبك عن كل سؤال تطرحه'
 		},
 		category: 'الذكاء الإصطناعي',
 		guide: {
-			en: '   {pn} <الكلمة>: قم بسؤال إيزوكو'
+			en: '   {pn} <الكلمة>: قم بسؤال ميكو'
 				+ '\n   Example:{pn} أهلا'
 		}
 	},
